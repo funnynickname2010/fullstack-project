@@ -1,12 +1,16 @@
-Fullstack Doggo Pinterest
+📌 Fullstack Doggo Pinterest
 Приложение для просмотра изображений и видео с собаками в стиле Pinterest, созданное на React, TypeScript и Vite.
 
-Содержание
+📚 Содержание
 Общая информация
+
 Технологии
+
 Функционал
+
 Установка
-Общая информация
+
+<details> <summary><strong>Общая информация</strong></summary>
 Это приложение представляет собой галерею в стиле Pinterest, где пользователи могут:
 
 Просматривать сетку изображений и видео с собаками
@@ -17,7 +21,7 @@ Fullstack Doggo Pinterest
 
 Видеть количество лайков у каждого поста
 
-Технологии
+</details> <details> <summary><strong>Технологии</strong></summary>
 Фронтенд
 React: v18.2.0
 
@@ -40,40 +44,54 @@ TypeScript: v5.8.3
 
 Axios: v1.10.0
 
-Функционал
-Сетка в стиле Pinterest
+</details> <details> <summary><strong>Функционал</strong></summary>
+📌 Сетка в стиле Pinterest
 
-Адаптивная masonry-сетка под разный размер медиа
-Поддержка изображений и видео
-Система лайков
+🧱 Адаптивная masonry-сетка под разный размер медиа
 
+🖼️ Поддержка изображений и видео
+
+💗 Система лайков
 Лайк по клику на иконку сердца
+
 Лайк по двойному тапу на карточку (удобно для мобильных)
+
 Сохранение избранного в localStorage
+
 Обновление счетчика лайков в реальном времени
-Страница избранного
 
+⭐ Страница избранного
 Отдельная страница с понравившимися постами
-Пагинация
 
+📄 Пагинация
 На всех страницах
-Установка
-Для запуска проекта локально используя npm
 
+</details> <details> <summary><strong>Установка</strong></summary>
 Настройка бэкенда
-
-$ git clone https://github.com/Anna1719/FullstackTask.git
-$ cd ./server
-$ npm install
+bash
+Copy
+Edit
+$ git clone https://github.com/Anna1719/FullstackTask.git  
+$ cd ./server  
+$ npm install  
 $ npm run dev
 Настройка фронтенда
-
-$ cd ./client
-$ npm install
+bash
+Copy
+Edit
+$ cd ./client  
+$ npm install  
 $ npm run dev
-Приложение будет доступно по адресу http://localhost:5173
+Приложение будет доступно по адресу:
+👉 http://localhost:5173
 
 Сборка для продакшена
+bash
+Copy
+Edit
+# фронтенд
+$ npm run build  
 
-$ npm run build  # фронтенд
-$ npm run build && npm start  # бэкенд
+# бэкенд
+$ npm run build && npm start
+</details>

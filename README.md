@@ -65,3 +65,5 @@ node index.js
 👉 http://localhost:3000
 
 </details>
+
+✨ Выполнили: Баринова Анна и Ремез Вячеслав

@@ -68,7 +68,7 @@
 <summary><strong>Установка</strong></summary>
 
 ### Настройка бэкенда
-```bash
+bash
 git clone https://github.com/Anna1719/FullstackTask.git
 cd ./server
 npm install
@@ -88,4 +88,4 @@ npm run build
 
 # бэкенд
 npm run build && npm start
-</details> ```
+</details>

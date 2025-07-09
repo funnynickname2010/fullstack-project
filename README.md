@@ -89,3 +89,5 @@ npm run build
 # бэкенд
 npm run build && npm start
 </details>
+
+✨ Выполнили: Баринова Анна (front) и Ремез Вячеслав (back)
